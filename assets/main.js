@@ -5,5 +5,5 @@ var eta = prompt("Età ?");
 var password = nome + cognome + colore + eta;
 console.log(password);
 
-
-document.getElementById('PasswordGenerator').innerHTML = password;
+//CAST implicito string + int = STRING
+document.getElementById('PasswordGenerator').innerHTML = password + 21;
