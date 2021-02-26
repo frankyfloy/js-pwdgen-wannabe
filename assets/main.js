@@ -6,4 +6,4 @@ var password = nome + cognome + colore + eta;
 console.log(password);
 
 
-document.getElementById('P').innerHtml = password;
+document.getElementById('PasswordGenerator').innerHTML = password;
